@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<?php
+$arr=array(
+	"username"=>"blue",
+	"age"=>"231",
+	"sex"=>"男"
+);
+foreach ($arr as $value)
+{
+	echo $value.'<br>';
+}
+echo "<hr>";
+$arr1=range("1", "9");
+foreach ($arr1 as $va)
+{
+	var_dump($va);
+}
+?>
+</body>
+</html>
